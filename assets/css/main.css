@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #444;
+}
+
+.main,
+.angular-google-map,
+.angular-google-map-container {
+	height: 100%;
+}
+
+.popup-overlay {
+	opacity: 0;
+}
+
+.popup {
+	z-index: 3;
+	position: absolute;
+	top: 30px;
+
+	width: 250px;
+	padding: 1em;
+
+	background-color: #fbfbfb;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 0 7px rgba(0, 0, 0, .4);
+}
+
+.popup-title {
+	padding-bottom: .4em;
+	margin-bottom: .4em;
+
+	border-bottom: 1px solid #e9e9e9;
+
+	line-height: 1;
+}
+
+.popup-form {
+	right: 30px;
+}
+
+.popup-list {
+	left: 75px;
+}
+
+p {
+	line-height: 1.6;
+}
+
+a {
+	color: #3498db;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	margin-bottom: 3px;
+}
+
+.form-control {
+	width: 100%;
+	padding: 0.5em;
+
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.form-control:focus {
+	border-color: #09f;
+	outline: none;
+}
+
+.form-control:read-only {
+	background-color: #eee;
+}
+
+.btn {
+	padding: .5em 1em;
+	background-color: #f0f0f0;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+
+	color: #444;
+}
+
+.btn-primary {
+	border-color: #2980b9;
+	background-color: #3498db;
+
+	color: #fff;
+}
+
+.btn:disabled {
+	opacity: .7;
+}
